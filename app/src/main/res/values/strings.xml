@@ -14,7 +14,14 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="plastic_use">Plastic Use</string>
-    <string name="PQ1">Question</string>
+    <string name="PQ1">I use reusable grocery bags</string>
+    <string name="PQ2">I don not use plastic bottles</string>
     <string name="energy_use">Energy use</string>
     <string name="always">I always do this</string>
+    <string name="EQ1">I heat my house to 65 degrees or less</string>
+    <string name="EQ2">I bike board, or walk to work</string>
+    <string name="EQ3">I take the bus</string>
+    <string name="EQ4">I fly about once a year or less</string>
+    <string name="EQ5">I do not eat animal products</string>
+
 </resources>

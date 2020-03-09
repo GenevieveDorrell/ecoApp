@@ -42,7 +42,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/plastic_use"
+                    android:text="@string/energy_use"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display3"
                     android:textColor="#68009637"
                     android:textStyle="normal|bold" />
