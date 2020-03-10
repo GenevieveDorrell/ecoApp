@@ -54,8 +54,8 @@
                 android:layout_height="match_parent">
 
                 <androidx.core.widget.NestedScrollView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -63,17 +63,12 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/PQ1"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                            android:text="@string/EQ1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                         <Switch
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
-
-                        <com.google.android.material.chip.Chip
-                            android:id="@+id/chip"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -86,7 +81,7 @@
                             android:id="@+id/textView9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/PQ1"
+                            android:text="@string/EQ2"
                             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                         <Switch
@@ -102,6 +97,16 @@
 
                     </LinearLayout>
                 </androidx.core.widget.NestedScrollView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" />
 
             </TableRow>
 
@@ -125,7 +130,7 @@
 
                 <androidx.core.widget.NestedScrollView
                     android:layout_width="wrap_content"
-                    android:layout_height="100dp">
+                    android:layout_height="150dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -133,9 +138,27 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:id="@+id/textView2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/PQ1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                        <Switch
+                            android:id="@+id/switch1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/always" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/PQ2"
                             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                         <Switch
